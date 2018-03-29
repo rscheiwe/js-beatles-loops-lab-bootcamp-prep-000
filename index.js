@@ -1,11 +1,16 @@
 function theBeatlesPlay(musicians, instruments) {
   const empty = []
   
+<<<<<<< HEAD
   for (let i = 0, l = musicians.length; i < l; i++) {
+=======
+  for (let i = 0; l = musicians.length; i < l; i++) {
+>>>>>>> 608a9a9eb4bc9a059552cc52701009a5b3048460
     empty.push(`${musicians[i]} plays ${instruments[i]}`)
   }
   
   return empty
+<<<<<<< HEAD
 }
 
 function johnLennonFacts(facts) {
@@ -37,3 +42,6 @@ function iLoveTheBeatles(num) {
 
 
 
+=======
+}
+>>>>>>> 608a9a9eb4bc9a059552cc52701009a5b3048460
